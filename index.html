@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intereactive Bank :)</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20190227/ourmid/pngtree-vector-bank-icon-png-image_708538.jpg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16"> Welcome to my <span
+                class="font-semibold text-cyan-500">Baap-er-Bank</span> !!!</h1>
+    </header>
+    <main>
+        <section class="bg-green-100 w-3/4 mx-auto mt-8 rounded-md p-4">
+            <h3 class="text-3xl font-semibold mb-4 text-center">Please log in</h3> <br>
+            <div class="ml-48">
+                <input id="user-email" class="border-2 block border-gray-400 w-3/4 mb-4 p-4 rounded " type="email"
+                    name="" id="" placeholder="Your Email here" required>
+                <input id="user-password" class="border-2 block border-gray-400 w-3/4 mb-4 p-4 rounded " type="password"
+                    name="" id="" placeholder="Your Password here" required>
+                <p class="text-blue-400 underline underline-offset-8 mb-4 cursor-pointer hover:text-orange-400"
+                    id="showBtn">Show the valid User Email and Password</p>
+                <div id="hidden-things" class="hidden">
+                    <p><b>Email : </b> user@gmail.com</p>
+                    <p><b>Password : </b> userPassword</p> <br>
+                </div>
+                <button class="bg-teal-500 hover:bg-teal-400 px-12 py-4 font-semibold rounded-md  text-white"
+                    id="login-submit">Log In</button>
+                <p class="text-bold text-red-500 text-center text-2xl" id="input-error"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

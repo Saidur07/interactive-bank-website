@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Page</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20190227/ourmid/pngtree-vector-bank-icon-png-image_708538.jpg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-4xl text-center mt-16"> Let's Get Some Money from <span
+                class="font-semibold text-cyan-500">Baap-er-Bank</span> !!!</h1>
+    </header>
+    <main class=" w-3/4 mx-auto">
+        <section>
+            <div class="grid grid-cols-3 gap-4 mt-8 text-white">
+                <div class="p-8 rounded bg-blue-500">
+                    <h3 class="text-3xl">Deposit</h3>
+                    <h4 class="text-4xl mt-2">$ <span id="deposit-total">00</span></h4>
+                </div>
+                <div class="p-8 rounded bg-green-400">
+                    <h3 class="text-3xl">Withdraw</h3>
+                    <h4 class="text-4xl mt-2">$ <span id="withdraw-total">00</span></h4>
+                </div>
+                <div class="p-8 rounded bg-yellow-300">
+                    <h3 class="text-3xl">Balance</h3>
+                    <h4 class="text-4xl mt-2">$ <span id="balance-total">1000</span></h4>
+                </div>
+             
+            </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-2 mt-8 gap-4">
+                <div class="bg-cyan-300 p-4 rounded-md">
+                    <h3 class="text-2xl font-semibold text-center mb-4">Deposit Here</h3>
+                    <div>
+                        <input id="deposit-input" class="border-2 block border-gray-400 w-3/4 mb-4 p-4 rounded mx-auto" type="number" name="" id="" placeholder="Deposit Amount" required> 
+                       
+                        <button class="bg-teal-500 hover:bg-teal-400 p-4 rounded-md mx-24 text-white mb-4" id="deposit-button">Deposit</button>
+                    </div>
+                </div>
+                <div class="bg-red-300 p-4 rounded-md">
+                    <h3 class="text-2xl font-semibold text-center mb-4">Withdraw Here</h3>
+                    <div>
+                        <input id="withdraw-input" class="border-2 block border-gray-400 w-3/4 mb-4 p-4 rounded mx-auto" type="number" name="" id="" placeholder="Withdraw Amount" required> 
+                       
+                        <button class="bg-teal-500 hover:bg-teal-400 p-4 rounded-md mx-24 text-white mb-4" id="withdraw-button">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="banking.js"></script>
+</body>
+
+</html>
