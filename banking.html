@@ -10,15 +10,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-slate-100">
     <header>
-        <h1 class="text-4xl text-center mt-16"> Let's Get Some Money from <span
+        <h1 class="text-2xl text-center mt-16 md:text-3xl"> Let's Get Some Money from <span
                 class="font-semibold text-cyan-500">Baap-er-Bank</span> !!!</h1>
     </header>
     <main class=" w-3/4 mx-auto">
         <section>
-            <div class="grid grid-cols-3 gap-4 mt-8 text-white">
-                <div class="p-8 rounded bg-blue-500">
+            <div class="grid grid-cols-1 gap-4 mt-8 text-white md:grid-cols-3">
+                <div class="p-8 rounded bg-blue-400">
                     <h3 class="text-3xl">Deposit</h3>
                     <h4 class="text-4xl mt-2">$ <span id="deposit-total">00</span></h4>
                 </div>
@@ -26,15 +26,15 @@
                     <h3 class="text-3xl">Withdraw</h3>
                     <h4 class="text-4xl mt-2">$ <span id="withdraw-total">00</span></h4>
                 </div>
-                <div class="p-8 rounded bg-yellow-300">
+                <div class="p-8 rounded bg-yellow-400">
                     <h3 class="text-3xl">Balance</h3>
                     <h4 class="text-4xl mt-2">$ <span id="balance-total">1000</span></h4>
                 </div>
              
             </div>
-        </section>
+        </section> <br>
         <section>
-            <div class="grid grid-cols-2 mt-8 gap-4">
+            <div class="grid grid-cols-1 mt-8 gap-4 md:grid-cols-2">
                 <div class="bg-cyan-300 p-4 rounded-md">
                     <h3 class="text-2xl font-semibold text-center mb-4">Deposit Here</h3>
                     <div>

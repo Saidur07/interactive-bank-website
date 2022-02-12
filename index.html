@@ -10,18 +10,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <header>
-        <h1 class="text-5xl text-center mt-16"> Welcome to my <span
-                class="font-semibold text-cyan-500">Baap-er-Bank</span> !!!</h1>
+<body class="bg-slate-100">
+    <header class="w-full">
+        <h1 class=" text-center mt-8 text-2xl md:text-3xl lg:text-5xl md:-16"> Welcome to my <span
+                class="font-semibold text-cyan-500">Baap-er-Bank</span> !!!</h1><br> <hr>
     </header>
     <main>
-        <section class="bg-green-100 w-3/4 mx-auto mt-8 rounded-md p-4">
-            <h3 class="text-3xl font-semibold mb-4 text-center">Please log in</h3> <br>
-            <div class="ml-48">
-                <input id="user-email" class="border-2 block border-gray-400 w-3/4 mb-4 p-4 rounded " type="email"
+        <section class="bg-green-100 w-full mx-auto mt-8 rounded-md p-4 md:w-3/4">
+            <h3 class="text-3xl font-semibold mb-4 text-left md:text-center">Please log in</h3> <br>
+            <div class="md:ml-48 ml-8">
+                <input id="user-email" class="border-2 block border-gray-400 w-full mb-4 p-4 rounded md:w-3/4" type="email"
                     name="" id="" placeholder="Your Email here" required>
-                <input id="user-password" class="border-2 block border-gray-400 w-3/4 mb-4 p-4 rounded " type="password"
+                <input id="user-password" class="border-2 block border-gray-400 w-full mb-4 p-4 rounded md:w-3/4" type="password"
                     name="" id="" placeholder="Your Password here" required>
                 <p class="text-blue-400 underline underline-offset-8 mb-4 cursor-pointer hover:text-orange-400"
                     id="showBtn">Show the valid User Email and Password</p>
